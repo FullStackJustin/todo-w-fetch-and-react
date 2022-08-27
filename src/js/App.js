@@ -2,8 +2,6 @@ import React, { useState, useEffect } from "react";
 import Form from "./component/Form";
 import TodoList from "./component/TodoList";
 
-/////////////////////////////////////////////////////////////////////////////
-//////////////////////BELOW WORKS FINE AS IS/////////////////////////////////
 function App() {
 	const [inputText, setInputText] = useState("");
 	const [todos, setTodos] = useState([]);
@@ -23,5 +21,4 @@ function App() {
 		</div>
 	);
 }
-/////////////////////////////////////////////////////////////////////////////
 export default App;
